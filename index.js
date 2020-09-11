@@ -1,5 +1,5 @@
 function handleClick() {
-  const str = "おはようございます";
+  const str = "Hello, world!";
   const blob = new Blob([str], {type : "text/plain"});
   const url = URL.createObjectURL(blob);
   let a = document.createElement("a");
