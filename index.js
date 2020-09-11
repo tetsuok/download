@@ -1,6 +1,6 @@
 function handleClick() {
-  const str = "Hello, world!";
-  const blob = new Blob([str], {type : "text/plain"});
+  const str = "Hello, 世界!";
+  const blob = new Blob([str], {type : "text/plain;charset=UTF-8"});
   const url = URL.createObjectURL(blob);
   let a = document.createElement("a");
   a.download = "test.txt";
